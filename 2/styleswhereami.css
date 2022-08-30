@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Kanit:wght@200&family=Share+Tech+Mono&display=swap');
+body{
+    /*Variables*/
+    --font-color: hsla(233, 100%, 100%, 1);
+    --color-accent:rgb(196, 94, 31);
+    --color-active: hsl(309, 63%, 86%, 0.5);
+    --color-100: white;
+    --font-large: 2.5rem;
+    --font-medium: 1.25rem;
+    --font500: 0.65rem; 
+    --font-nav: 'Lato', serif;
+    --font-H500:'Bree Serif', serif;
+    --font-body: 'Kanit', sans-serif;
+    --font-textv1: 'Share Tech Mono', monospace;
+    --font-textv2: 'Assistant', sans-serif;
+    --bg-main: hsla(40, 81%, 68%, .6);
+
+    background: url(../images/hex.jpg);
+    background-size: cover;
+    filter: blur(850%px);
+    -webkit-filter: blur(50%);
+    margin: 3rem;
+    color: var(--font-color);
+}
+header{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* This is all about the nav bar */
+li {
+    list-style-type: none;
+}
+nav ul{
+    margin-bottom: 1rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+nav li{
+    display: inline;
+}
+li.nav{
+    border: 0.35rem solid var(--color-accent);
+    padding: 0.75rem;
+    margin: 3rem;
+    font-size: var(--font500);
+    border-radius: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: var(--color-100);
+}
+nav{
+    margin-top: 0.65rem;  
+    font-family: var(--font-nav);
+    font-weight: bolder;
+}
+.logo{
+    font-family: var(--font-textv1);
+    font-size: 4rem;
+    margin-right: 5rem;
+}
+li.nav:hover{
+    background-color: var(--color-active);
+}
+.active {
+    background-color: var(--color-active);
+}
+a{
+    text-decoration: none;
+}
+/* -----END---- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+/* ------------- */
+
+
+
+h1{
+    font-family: var(--font-H500);
+    font-size: var(--font-large);
+    color: var(--color-accent);
+    text-decoration: none;
+}
+p{
+    margin: auto;
+    text-align: justify;
+    font-family: Monacp, monospace;
+    font-size: 1.35rem;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+}
+.container{
+    margin: 5rem;
+    background-color: var(--bg-main);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.header h1{
+    text-align: center;
+    margin: 0.35rem 0.75rem;
+    /* float: left; */
+    padding: 0.75rem;
+    background-color: var(--color-accent);
+    color: var(--color-100);
+    border-radius: 15px;
+}
+.paragraph{
+    display: inline;
+    color: black;
+
+}
+.bttm-nav h1{
+    text-align: center;
+    background-color: none;
+    width: 10rem;
+    font-size: large;
+}
+.bttm-nav h1:hover{
+    background-color: var(--color-100);
+    color: var(--color-accent);
+}
